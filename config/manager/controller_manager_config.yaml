@@ -8,4 +8,4 @@ webhook:
   port: 9443
 leaderElection:
   leaderElect: true
-  resourceName: ecaf1259.my.domain
+  resourceName: 80807133.tutorial.kubernetes.io

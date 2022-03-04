@@ -1,16 +1,6 @@
-domain: my.domain
+domain: tutorial.kubernetes.io
 layout:
 - go.kubebuilder.io/v3
-projectName: guestbook
-repo: my.domain/guestbook
-resources:
-- api:
-    crdVersion: v1
-    namespaced: true
-  controller: true
-  domain: my.domain
-  group: webapp
-  kind: Guestbook
-  path: my.domain/guestbook/api/v1
-  version: v1
+projectName: project
+repo: tutorial.kubebuilder.io/project
 version: "3"
