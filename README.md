@@ -2,5 +2,6 @@
 
 A scaffolded Kubernetes operator.
 
-Create your own API-
-1. Scaffold: `kubebuilder init --domain my.domain --repo my.domain/guestbook`
+1. Create a directory, and then run the init command inside of it to initialize a new project: 
+    
+    `kubebuilder init --domain my.domain --repo my.domain/guestbook`
